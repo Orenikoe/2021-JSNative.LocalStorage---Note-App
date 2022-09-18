@@ -1,0 +1,95 @@
+body {
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    top: 0px;
+    left: 0px;
+}
+.task-row {
+    display: flex;
+    
+}
+
+.tasks {
+    width: 50%;
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+header {
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.fill {
+    /* background-image: url("https://source.unsplash.com/random/110x110"); */
+    position: relative;
+    width: 110px;
+    height: 110px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    overflow-y: auto;
+}
+.fill::-webkit-scrollbar {
+    display: none;
+}
+
+.empty {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 30px;
+    background-color: white;
+    border: 3px salmon solid;
+    flex-grow: 1;
+}
+
+.hold { 
+    border: solid #ccc 4px;
+}
+
+.hovered {
+    border-style: dashed;
+    background-color: #f4f4f4;
+
+}
+
+.invisible {
+    display: none;
+    
+}
+
+.trash {
+    bottom: 10px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: url("https://image.flaticon.com/icons/svg/2891/2891771.svg");
+    background-size: 117px 121px;
+    margin: auto;
+    background-color: darksalmon;
+   
+    
+
+}
+
+
+
+.visible {
+    display: block;
+}
+
